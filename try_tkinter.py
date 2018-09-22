@@ -69,7 +69,7 @@ def ShowPredDieselPrice(coeff2):
 def ShowPredPetrolPrice(coeff1):
     o1=float(Entry.get(Oil_BarrelPrice_Entry_Price))
     d1=float(Entry.get(Dollar_Equivalent_Entry_Price))
-    print ('\nPredicted Diesel Price (in Rs):', end=' ')
+    print ('\nPredicted Petrol Price (in Rs):', end=' ')
     ans=round(float(coeff1[0])*d1*o1+float(coeff1[1]),2)
     print (ans)
 
