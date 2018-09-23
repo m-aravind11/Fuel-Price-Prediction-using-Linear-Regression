@@ -106,7 +106,8 @@ coeff2=reg_diesel(np.array(barrelrs),np.array(diesel))
 #TKINTER
 root=Tk()
 root.title('Petrol and Diesel Price Predictor')
-root.minsize(400,120)
+root.minsize(400,150)
+root.maxsize(400,150)
 
 menu = Menu(root) 
 root.config(menu=menu) 
